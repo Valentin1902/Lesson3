@@ -1,0 +1,51 @@
+*{
+text-decoration: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+
+
+
+
+.list_style_type{
+    list-style-type: none;
+}
+ol{
+    list-style-type: circle;
+}
+.mark_list{
+    list-style-type: disc;
+    list-style-type: circle;
+    list-style-type: none;
+
+}
+.main_text_list{
+    list-style-type: none;
+}
+.main_text_list ::before {
+   content:"";
+   color: brown;
+   font-size: 24px;
+}
+
+.conteiner{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+.box_padding{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.box_padding p {
+    background-color: aqua;
+    width: 20px;
+    padding: 20px;
+    margin: 10px;
+}
